@@ -1,0 +1,273 @@
+@font-face {
+    font-family: figCap;
+    src: url(../font/PulpenSnowman-Wy8W4.ttf) format('truetype');
+ }
+
+ h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #5c239b;
+    text-transform: uppercase;
+    font-size: 31px;
+    line-height: 28px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    text-align: left;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background:#471979 ;
+    color: white;
+    padding: 0px;
+    position: relative;
+}
+.header_content1 {
+    width: 73%;
+    margin: 0 auto;
+    height: auto;
+    text-align: left;
+    position: relative;
+}
+.header_content2 {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+}
+.header_content3 {
+    width: 46%;
+    margin: 0 auto;
+    height: auto;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#logo{
+    padding: 0%;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 20px 0px;
+}
+#logo h1{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8vw;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 7vw;
+    margin: 0px;
+ }
+ #logo p{
+    color: #E9D16C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: .5vw;
+    word-spacing: 0.5vw;
+    position: absolute;
+    bottom: -1vw;
+    width: 80%;
+ }
+#logo .logo{
+    padding: 0%;
+    width: 44%;
+    float: left;
+    margin-bottom: -0.8vw;
+}
+#logo .chocolate {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 0px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    background:#392D77;
+    background-image: linear-gradient(to bottom,#392D77,#EB7DF0);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color:white;
+}
+#company-info p {
+    margin: 10px 0;
+}
+
+.nav1 {
+    background: #280a49;
+    padding: 10px 0;
+}
+
+.nav1 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav1 ul li {
+    margin: 0;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav1 ul li a:hover {
+    color: #ffcc00; 
+}
+
+.nav2{
+    background-color: #E9D16C;
+    padding: 10px 0;
+
+}
+.nav2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav2 ul li {
+    margin: 0;
+}
+.nav2 ul li a {
+    text-decoration: none;
+    color: #392D77;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.nav2 .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav2 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    text-align: left;
+    z-index: 1;
+}
+
+.nav2 .dropdown-content a {
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav2 .dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.nav2 .dropdown:hover .dropdown-content {
+    display: block;
+}
+#intro, #nutrition{
+    text-align: left;
+    line-height:1.5em;
+}
+
+
+.fc{
+    font-family: figCap, 'Times New Roman', Times, serif;
+}
+
+#intro img,#nutrition img{
+    width: 80%;
+    height: 80%;
+    
+}
+#nutrition ul li{
+    list-style-position: inside
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+ 
+  #imagery img{
+    width:45%;
+    height: 45%;
+  }
+  #imagery img:hover{
+    border: 2px solid #555;
+  }
+  span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 50%;
+  }

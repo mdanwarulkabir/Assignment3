@@ -271,3 +271,7 @@ input[type=text], select, textarea {
     font-family: algerian, courier;
     line-height: 50%;
   }
+  
+  .cf{
+    text-align: center;
+  }
